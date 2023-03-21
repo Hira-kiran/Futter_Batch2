@@ -1,7 +1,12 @@
 void main() {
 // Lecture # 1:
-
-  // print hello world program
+// •	What is dart and why we use it?
+// •	How to install Vs code?
+// •	What is Dartpad?
+// •	Install Extensions
+// •	Make first program “hello world”?
+// •	How to write comments?
+  
   print("hello world");
   print("pakistn");
 }

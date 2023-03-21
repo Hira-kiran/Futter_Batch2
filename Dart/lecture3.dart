@@ -1,3 +1,5 @@
+
+// Lec # 3:
 // •	Datatypes(bool, List, Map)
 // •	Differentiate between variable and dynamic
 // •	Relational operators
