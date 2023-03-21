@@ -9,9 +9,11 @@ void main() {
   int a = 20;
   bool c = a < b;
   print(c);
+
 // list
   List fruitsList = [56, 58, 67.6, 78, "flutter"];
   print(fruitsList[0]);
+
   // Map
   Map<String, dynamic> map = {
     "email": "hira@gmail.com",

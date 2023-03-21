@@ -1,5 +1,5 @@
 void main() {
-  // Lec # 2
+// Lec # 2
 // •	What is variable?
 // •	What is constants?
 // •	What is data type (int, double, string)?
@@ -21,3 +21,9 @@ void main() {
   print(c);
   print(a);
 }
+
+// Assignment
+// 1)	Write a program to print "Welcome to flutter Mobile application development"
+// 2)	Write a program to perform all arithmetic operations?
+// 3)	Write a program to multiply three decimal number?
+// 4)	Differentiate between variable and dynamic?
