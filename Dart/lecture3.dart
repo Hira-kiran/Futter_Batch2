@@ -1,4 +1,3 @@
-
 // Lec # 3:
 // •	Datatypes(bool, List, Map)
 // •	Differentiate between variable and dynamic
@@ -6,11 +5,29 @@
 // •	Concatenation
 
 void main() {
+  /*  var x = 30;
+  x = 40;
+ 
+  x = 56;
+  const y = 10;
+  */
+
   // bool a = false;
-  int b = 10;
+  var b = 12;
   int a = 20;
   bool c = a < b;
   print(c);
+
+  List books = [
+    "c++",
+    "java",
+    "web",
+    78,
+  ];
+  print(books.length);
+
+  Map<String, dynamic> map1 = {"hh": "hira", "age": 12};
+  print(map1["age"]);
 
 // list
   List fruitsList = [56, 58, 67.6, 78, "flutter"];
@@ -38,14 +55,17 @@ void main() {
   // Relational operators
 // >,<,<=,>=,==,!=
 
+// = , ==
   int x = 20;
   int y = 40;
-
-  bool z = x <= y;
+  bool equality = (x == y);
+  print(equality);
+  bool z = x >= y;
   print(z);
 
   String name = "flutter ";
-  String name2 = "dart" + " " + name;
+  String name2 = "dart" + name;
+  print(name2);
   print(name + name2);
 
   print("*");

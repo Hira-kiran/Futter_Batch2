@@ -43,10 +43,37 @@ void main() {
 
   // ?, :
 
-  int x = 20;
-  int y = 30;
-  String z = (x > y) ? " condition is true" : "condition is false";
-  print(z);
+  // int x = 20;
+  // int y = 30;
+  // String z = (x > y) ? " condition is true" : "condition is false";
+  // print(z);
+
+  int n = int.parse(stdin.readLineSync()!);
+  // if statment
+
+  /*  if (n > 10) {
+    print("n is greater to 10");
+  } else if (n < 10) {
+    print("n is less then 10");
+  } else if (n >= 10) {
+    print("n is equal to 10");
+  } else {
+    print("FAILED");
+  }
+ */
+  switch (n) {
+    case 10:
+      print("value is 10");
+      break;
+    case 20:
+      print("value is 20");
+      break;
+    case 50:
+      print("value is 50");
+      break;
+    default:
+      print("false");
+  }
 }
 
 

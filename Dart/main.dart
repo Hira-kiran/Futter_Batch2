@@ -1,4 +1,16 @@
 void main() {
+  // Make first program “hello world”?
+  /* print("hello world");
+  print("hello world");
+   print("hello world");
+ 
+ */
+
+//  print("pakistn");
+}
+
+// Assignment
+// 1)	Write a program to print all your family members’ name.
 // Lecture # 1:
 // •	What is dart and why we use it?
 // •	How to install Vs code?
@@ -7,8 +19,3 @@ void main() {
 // •	Make first program “hello world”?
 // •	How to write comments?
   
-  print("hello world");
-  print("pakistn");
-}
-// Assignment
-// 1)	Write a program to print all your family members’ name.

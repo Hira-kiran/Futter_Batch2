@@ -7,6 +7,8 @@ void main() {
 // •	How to declare and initialize variables?
 // •	Rules of declaring variable.
 
+
+  int x=20;
   int a = 20;
   int b = 30;
   int c = 30;
