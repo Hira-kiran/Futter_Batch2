@@ -1,11 +1,12 @@
 import 'dart:io';
 
-void main() {
-  // Loop
-  /*  •	For loop
-•	While loop
-•	Do while loop */
+// Lecture # 8:                  
+// Loops
+// •	For loop
+// •	While loop
+// •	Do while loop
 
+void main() {
   // int i = 0;
   //1st iteration i=0
   //2nd i=1 , 3rd i=2
@@ -35,3 +36,10 @@ void main() {
     n++;
   } while (n == 20); */
 }
+
+
+// Assignment
+// 1)	Write a program that displays counting form 1 to 10 using while loop.
+// 2)	Write a program that displays first five numbers with their square using while loop.
+// 3)	Write a program that display back counting from 10 to 1 using do while loop.
+// 4)	Write a program that display product of all odd numbers from 1 to 10 using for loop.
