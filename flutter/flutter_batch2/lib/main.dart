@@ -74,3 +74,20 @@ class MYApp extends StatelessWidget {
     );
   }
 }
+
+
+// LEC 1:
+// •	Creating first flutter project
+// •	Understand vs code all things
+// •	Install extensions
+// LEC 2:
+// •	Stateless widget
+// •	Hot reload and hot restart
+// •	Understand widgets
+// •	App bar widget
+// •	Container widget
+// •	Single child widgets
+// •	Multi child widgets
+// Assignment
+// •	Design UI using six containers
+
