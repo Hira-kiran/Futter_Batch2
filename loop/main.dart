@@ -1,6 +1,6 @@
 import 'dart:io';
 
-// Lecture # 8:                  
+// Lecture # 8:
 // Loops
 // •	For loop
 // •	While loop
@@ -15,13 +15,17 @@ void main() {
 // For loop
   print("Enter your number:");
   // int x = int.parse(stdin.readLineSync()!);
-  for (int i = 1; i <= 50; i++) {
+  int even = 0;
+  int odd = 0;
+  for (int i = 1; i <= 20; i++) {
     if (i % 2 == 0) {
-      print("Even number $i ");
+      even += i;
     } else {
-      print("Odd number $i");
+      odd += i;
     }
   }
+  print("Even number $even ");
+  print("Odd number $odd");
   // while loop
   /*  int n = 0;
   while (n < 10) {
@@ -36,7 +40,6 @@ void main() {
     n++;
   } while (n == 20); */
 }
-
 
 // Assignment
 // 1)	Write a program that displays counting form 1 to 10 using while loop.
