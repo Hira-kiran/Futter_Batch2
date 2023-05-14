@@ -20,6 +20,7 @@ class _ClassSixState extends State<ClassSix> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        automaticallyImplyLeading: false,
         title: const Text("Class Six"),
       ),
       body: Column(
@@ -30,6 +31,7 @@ class _ClassSixState extends State<ClassSix> {
               style: GoogleFonts.lato(textStyle: TextStyle(fontSize: 20))),
           ElevatedButton(
               onPressed: () {
+                //********* Country Code picker *************** */
                 showCountryPicker(
                   countryListTheme: CountryListThemeData(
                       borderRadius: BorderRadius.circular(20),
@@ -45,6 +47,7 @@ class _ClassSixState extends State<ClassSix> {
               child: Text(countryCode))
         ],
       ),
+      //*********************FloatingActionButton******************* */
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.purple,
         onPressed: () {},
@@ -54,12 +57,14 @@ class _ClassSixState extends State<ClassSix> {
   }
 }
 
+//     *********** Flutter Logo ***************
 //  const FlutterLogo(
 //             size: 200.0,
 //             style: FlutterLogoStyle.horizontal,
 //             textColor: Colors.blue,
 //           ),
 
+//   *************************GridView Widget******************** */
 //  GridView(
 //         gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
 //           crossAxisCount: 2,
