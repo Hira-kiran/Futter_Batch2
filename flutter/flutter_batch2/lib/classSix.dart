@@ -28,7 +28,7 @@ class _ClassSixState extends State<ClassSix> {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Text("Class Six",
-              style: GoogleFonts.lato(textStyle: TextStyle(fontSize: 20))),
+              style: GoogleFonts.lato(textStyle: const TextStyle(fontSize: 20))),
           ElevatedButton(
               onPressed: () {
                 //********* Country Code picker *************** */
